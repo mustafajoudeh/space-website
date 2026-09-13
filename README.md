@@ -24,6 +24,5 @@ A modern responsive space-themed website built using HTML, CSS, and Bootstrap.
 ```text
 space-website/
 ├── index.html
-├── css/
-│   └── style.css
+├── style.css
 └── README.md
