@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Explorer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">Space<span>Explorer</span></div>
+      <nav>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#planets">Planets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bento">Highlights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">By the Numbers</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="orb"></div>
+        <div class="hero-content">
+          <h1>Explore the planet system</h1>
+          <p>
+            A visual tour of the planets, built to teach CSS Grid and bootstrap
+          </p>
+          <a href="#planets" class="Mybtn">Begin the Tour</a>
+        </div>
+      </section>
+
+      <section id="planets" class="planets">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet mercury"></div>
+                <h3>Mercury</h3>
+                <p>The smallest planet and the closest to the sun</p>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet venus"></div>
+                <h3>Venus</h3>
+                <p>The hottest planet, wrapped in thick clouds</p>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet earth"></div>
+                <h3>Earth</h3>
+                <p>Our home, the only known planet with life</p>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet mars"></div>
+                <h3>Mars</h3>
+                <p>The red planet, a target for future missions</p>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet jupiter"></div>
+                <h3>Jupiter</h3>
+                <p>The largest planet, a giant ball of gas</p>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="planet-card">
+                <div class="planet saturn"></div>
+                <h3>Saturn</h3>
+                <p>Famous for its bright, wide ring system.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENTO GRID -->
+      <section id="bento" class="bento-section py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2>Mission Highlights</h2>
+            <p class="section-subtitle">
+              Exploring the technology that helps us understand the universe
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <!-- Feature -->
+            <div class="col-12 col-lg-6">
+              <div class="bento-item feature h-100">
+                <div>
+                  <span class="bento-icon">✦</span>
+                  <h3>Deep Space</h3>
+                  <p>Telescopes now see galaxies billions of years old</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rovers -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="bento-item h-100">
+                <div>
+                  <span class="bento-icon">🚀</span>
+                  <h3>Rovers</h3>
+                  <p>Exploring distant planets and moons.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Satellites -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="bento-item h-100">
+                <div>
+                  <span class="bento-icon">🛰️</span>
+                  <h3>Satellites</h3>
+                  <p>Observing Earth and deep space.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Launch Systems -->
+            <div class="col-12 col-lg-6">
+              <div class="bento-item wide h-100">
+                <div>
+                  <span class="bento-icon">🔥</span>
+                  <h3>Launch Systems</h3>
+                  <p>
+                    Powerful systems designed to take humans and technology
+                    beyond Earth.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stations -->
+            <div class="col-12 col-lg-6">
+              <div class="bento-item h-100">
+                <div>
+                  <span class="bento-icon">🌌</span>
+                  <h3>Space Stations</h3>
+                  <p>
+                    Laboratories where humans live and conduct research in
+                    space.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section id="stats" class="stats-section py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-6 col-md-3">
+              <div class="stat h-100">
+                <strong>8</strong>
+                <span>Planets</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <div class="stat h-100">
+                <strong>200+</strong>
+                <span>Moons</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <div class="stat h-100">
+                <strong>1</strong>
+                <span>Star</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <div class="stat h-100">
+                <strong>4.6B</strong>
+                <span>Years Old</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Spaec Explorer, a CSS and bootstrap training demo</p>
+      <p>&copy; 2026-2027</p>
+    </footer>
+  </body>
+</html>
